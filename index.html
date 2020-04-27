@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <style>
+        body {
+            margin-top: 50px;
+            box-shadow: 20px 10px 5px aqua;
+        }
+        h1 {
+            text-shadow: 2px 2px 4px #160c0f6c;
+        }
+        .centerDiv,
+        #imageDiv {
+            text-align: center;
+        }
+
+        #imageDiv img {
+            width: 400px;
+            filter: blur(12px);
+            cursor: grab;
+            margin-bottom: 3%;
+            border-radius: 5px;
+        }
+
+        h2 {
+            font-family: cursive;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        #loadImage {
+            margin-top: 20px;
+        }
+
+        #loadImage input {
+            font-size: large;
+            padding: 10px;
+            height: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="centerDiv">
+        <h1>Customize your Web Page & Upload your Fav Image!</h1>
+        <input type="text" placeholder="pink" id="textField" />
+        <button>Change Color</button>
+        <p>
+            <button id="cleanField">Clean Field </button>
+        </p>
+    </div>
+    <div id="imageDiv">
+        <h2>Reveal the image!</h2>
+        <img src="images/zeroblur.jpg" alt="#">
+        <div id="loadImage">
+            <input type="file">
+        </div>
+    </div>
+    <script src="JS/event.js"></script>
+</body>
+
+</html>
