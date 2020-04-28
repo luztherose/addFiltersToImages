@@ -1,0 +1,73 @@
+body {
+    margin-top: 50px;
+    box-shadow: 20px 10px 5px aqua;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px #160c0f6c;
+}
+#imageFilter {
+    display: flex;
+    justify-content: center;
+}
+#filters {
+    border: 1px solid #333333;
+    background-color: rgb(211, 209, 209);
+    margin-right: 10%;
+    margin-top: 4%;
+}
+#filters label {
+    display: block;
+    font-size: 14px;
+    margin: 10px;
+    color: #333232;
+}
+label:hover {
+    padding: 10px;
+    background-color:#f2f2f2;
+    /* color: white; */
+    width: 85%;
+    position: relative;
+}
+.rangeSlider{
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+}
+.centerDiv, #imageDiv {
+    text-align: center;
+}
+
+#imageDiv img {
+    width: 400px;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+#filterOut {
+    font-size: 14px;
+    padding: 10px;
+    color: #333232;
+    margin-left: 60%;
+    border-radius: 10px;
+}
+#filterOut:hover {
+    background-color: lightblue;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#loadImage {
+    margin-top: 20px;
+}
+
+#loadImage input {
+    font-size: large;
+    padding: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+
