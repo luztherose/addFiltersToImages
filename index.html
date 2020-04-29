@@ -9,17 +9,14 @@
 </head>
 
 <body>
-    <div class="centerDiv">
-        <h1>Customize your Web Page & Upload your Fav Image!</h1>
-        <div>
-            <input type="text" placeholder="pink" id="textField" />
-        </div>
-        <button>Change Color</button>
-        <p>
-            <button id="cleanField">Clean Field </button>
-        </p>
-    </div>
+    <h1>Add Filters and Create Your Image!</h1>
     <div id="imageFilter">
+        <div id="imageDiv">
+            <img src="images/zeroblur.jpg" alt="#">
+            <div id="loadImage">
+                <input type="file" id="file">
+            </div>
+        </div>
         <div id="filters">
             <label>Blur:</label>
             <input type="range" id="blurRange" class="rangeSlider" name="vol" min="0" max="100">
@@ -32,13 +29,6 @@
             <label>Saturate:</label>
             <input type="range" id="saturateRange" class="rangeSlider" name="vol" min="0" max="100">
             <button id="filterOut">Original</button>
-        </div>
-        <div id="imageDiv">
-            <h2>Add Filters and Create Your Image!</h2>
-            <img src="images/zeroblur.jpg" alt="#">
-            <div id="loadImage">
-                <input type="file">
-            </div>
         </div>
     </div>
     <script src="JS/event.js"></script>
